@@ -1,0 +1,6 @@
+Set-ExecutionPolicy RemoteSigned -Scope Process
+
+venv\scripts\activate
+
+cd Tryout
+python manage.py runserver
